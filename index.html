@@ -1,31 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
-</head><!-- does not show in browser -->
-    <meta charset="utf-8" />
-    <meta name = "viewport" content="width=device-width"/>
-    <title>Phargo</title>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe</title>
+</head>
 
-    </head>
-    <h1>Purchase Used Like-New Items</h1>
+<body>
+    <header>
+        <h1 id="phargo-heading">Phargo</h1>
+        <h1 id="clothing-heading">Clothing</h1>
+        <h1 id="electronics-heading">Electronics</h1>
+        <h1 id="householditems-heading">Household Items</h1>
+    </header>
 
-    <div>/Users/iangraham/Downloads/makeup-and-beauty-products-vector-456671.jpg  </div>
+    <ul class="flex-container">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+    </ul>
 
-    <body>
-        <p> Welcome to Phargo--The intersection between new and used items-- we sell the items you desire for incredible prices.</p> 
-        <div> /Users/iangraham/Downloads/tal-best-hawaiian-shirts-for-men-of-2023-tout-51158135c18a45f7b3f137164eaf092c.jpg </div>
-        <div> /Users/iangraham/Downloads/tal-best-hawaiian-shirts-for-men-of-2023-tout-51158135c18a45f7b3f137164eaf092c.jpg </div>
-        <div> /Users/iangraham/Downloads/Jansport_05.webp </div>
-        <div>We sell all kinds of items. Ranging from swimsuits to schoolwear, we have the best.</div>
-        <h1> DO NOT pass on this chance to save</h1>
-        <div> https://www.google.com/search?q=save+symbol&tbm=isch&ved=2ahUKEwiDkon8oZyEAxWtFzQIHQDmCT8Q2-cCegQIABAA&oq=save+symbol&gs_lp=EgNpbWciC3NhdmUgc3ltYm9sMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIjyZQ7ApYmCRwAXgAkAEAmAFxoAGZB6oBBDEzLjG4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ6gCAMICDRAAGIAEGIoFGEMYsQPCAggQABiABBixA8ICChAAGIAEGIoFGEOIBgE&sclient=img&ei=9Q7FZcPDIa2v0PEPgMyn-AM&bih=733&biw=1470&rlz=1C5CHFA_enUS1072US1072#imgrc=MNcbWElymzL4zM</div>
-    This is temporary
-    <style>  {
-        width: 100px;
-        color blue </style>
-        <h3> Important Links</h3>
-        <div> Link Link Link Link</div>
-        <div> Link Link Link Link</div>
-        <div> Link Link Link Link</div>
-    </body>
+    <footer class="footer-container"> 
+        <h1>Have a Good Day!</h1>
+    </footer>
+
+    <style>
+        #phargo-heading {
+            font-size: 1.5rem;
+            margin: 0;
+            padding: 40px 150px;
+            background-color: #ffffff;
+            border: 1px solid #000;
+        }
+        #clothing-heading {
+            font-size: 1rem;
+            margin-top: -25px;
+            margin-left: 10px;
+        }
+        #electronics-heading {
+            font-size: 1rem;
+            margin-top: -29px;
+            margin-left: 100px
+        }
+        #householditems-heading {
+            font-size: 1rem;
+            margin-top: -30px;
+            margin-left: 208px
+        }
+        .image-heading {
+            font-size: 1rem;
+            padding: 40px 15px;
+            background-color: #ffffff;
+            border: 1px solid #000;
+            margin-top: 50px;
+            margin-left: 15px;
+            width: 125px;
+            text-align: center;
+        }
+
+        .flex-container {
+            margin-top: 50px;
+            margin-left: 200px;
+            font-size: 1.5rem;
+        }
+
+        .footer-container {
+            margin-top: 30px; /* Adjusted margin to move the footer up slightly */
+            font-size: .75rem;
+            padding: 40px 150px;
+            background-color: #ffffff;
+            border: 1px solid #000;
+        }
+
+        body {
+            margin: 0;
+        }
+        header {
+            position: relative;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .flex-item {
+            background: white;
+            padding: 5px;
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+            margin-left: 110px;
+            line-height: 150px;
+            color: black;
+            font-weight: bold;
+            font-size: 3em;
+            text-align: center;
+            border: 1px solid #000;
+            
+        }
+    </style>
+</body>
+
 </html>
