@@ -1,25 +1,3 @@
-#phargo-heading {
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 40px 150px;
-    background-color: #ffffff;
-    border: 1px solid #000;
-}
-#clothing-heading {
-    font-size: 1rem;
-    margin-top: -25px;
-    margin-left: 10px;
-}
-#electronics-heading {
-    font-size: 1rem;
-    margin-top: -29px;
-    margin-left: 100px
-}
-#householditems-heading {
-    font-size: 1rem;
-    margin-top: -30px;
-    margin-left: 208px
-}
 .image-heading {
     font-size: 1rem;
     padding: 40px 15px;
@@ -74,6 +52,4 @@ header {
     font-size: 3em;
     text-align: center;
     border: 1px solid #000;
-    
 }
-
