@@ -17,10 +17,40 @@ footer {
   footer img {
     width: 75px; 
     height: 65px;
+    text-align:center
   }
 
   footer li {
     display: inline-block; 
     text-align: center;
  }
+
+ .flex-item {
+  background: white;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 110px;
+  line-height: 150px;
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
  
+.flex-item img {
+  width: 100%; /* Set image width to 100% of the flex item */
+  height: 100%; /* Set image height to 100% of the flex item */
+  object-fit: cover; /* Ensure the image covers the entire area of the flex item */
+}
