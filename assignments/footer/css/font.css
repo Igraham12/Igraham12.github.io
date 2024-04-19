@@ -1,6 +1,10 @@
+.nav {
+  font-family: "Bungee Spice";
+}
+
 footer {
     background-color: #a9eca9;
-    padding: 2rem;
+    padding: 32px;
     border: 3px solid #000;
     text-align: center;
   }
@@ -31,21 +35,23 @@ footer {
   width: 150px;
   height: 150px;
   margin-top: 10px;
-  margin-left: 110px;
+  margin-left: 98px;
   line-height: 150px;
   color: black;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   border: 1px solid #000;
+  margin-bottom: 25px;
+
 }
 
 .flex-container {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
  
@@ -53,4 +59,63 @@ footer {
   width: 100%; /* Set image width to 100% of the flex item */
   height: 100%; /* Set image height to 100% of the flex item */
   object-fit: cover; /* Ensure the image covers the entire area of the flex item */
+  align-items: center;
 }
+
+.nav {
+  text-align: center;
+  color: #0000FF;
+}
+
+.nav:hover {
+  border-bottom: 1px solid #0000FF;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    font-family: "Bungee Spice";
+  }
+
+  footer {
+    background-color: #a9eca9;
+    padding: 0; /* Remove padding */
+    border: 3px solid #000;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #0000FF;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    border-bottom: 1px solid #0000FF ;
+  }
+
+  footer img {
+    width: 75px; 
+    height: 65px;
+    float: left; /* Make the image float to the left */
+  }
+
+  footer li {
+    display: inline-block; 
+    text-align: center;
+  }
+
+  .nav {
+    text-align: center;
+    color: #0000FF;
+  }
+
+  .nav:hover {
+    border-bottom: 1px solid #0000FF;
+  }
+}
+
+
+
+
+
+
+
