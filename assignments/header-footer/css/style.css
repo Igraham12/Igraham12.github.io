@@ -88,7 +88,7 @@
     display: flex; /* Uses flexbox for layout */
     justify-content: space-around; /* Distributes items evenly along the horizontal line */
     list-style-type: none; /* Removes bullets from the list */
-    padding: 10px; /* Adds padding of 10px to all sides of the list */
+    padding: 10px; 
   }
   
   /* Styling for unordered list within the navigation bar */
@@ -107,7 +107,7 @@
   nav ul li a {
     color: #fff; /* Sets the text color of the links in the navigation bar to white */
     text-decoration: none; /* Removes the underline from the links in the navigation bar */
-    font-size: 0.8em; /* Reduced font size to 0.8em for the links in the navigation bar */
+    font-size: 0.8rem; /* Reduced font size to 0.8em for the links in the navigation bar */
   }
   
 
@@ -131,7 +131,7 @@
   
     /* Styling for flex items on devices with a minimum width of 768px */
     .flex-item{
-    margin-right: 120px; /* Adds a right margin of 120px to the flex items */
+    margin-right: 120px; 
     }
   }
   
