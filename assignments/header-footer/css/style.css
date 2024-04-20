@@ -13,8 +13,8 @@
   .flex-container {
     display: flex; /* Uses flexbox for layout */
     flex-flow: column wrap; /* Sets the direction of the flex items to column and allows them to wrap to the next line */
-    padding: 0px; /* No padding for the flex container */
-    margin: 0px; /* No margin for the flex container */
+    padding: 0px; 
+    margin: 0px; 
     list-style: none; /* No list style for the flex container */
   }
   
@@ -26,8 +26,8 @@
   
 
   footer {
-    background-color: #a9eca9; /* Sets the background color of the footer to a light green */
-    padding: 32px; /* Adds padding of 32px to all sides of the footer */
+    background-color: #a9eca9; 
+    padding: 32px; 
     border: 3px solid #000; /* Adds a 3px solid black border around the footer */
     text-align: center; /* Centers the text horizontally */
     justify-content: space-around; /* Distributes items evenly along the horizontal line */
@@ -35,9 +35,9 @@
   
 
   footer a {
-    color: #0000FF; /* Sets the text color of the links in the footer to blue */
+    color: #0000FF; 
     text-decoration: none; /* Removes the underline from the links in the footer */
-    margin: 0 10px; /* Adds a horizontal margin of 10px to each side of the links in the footer */
+    margin: 0 10px; 
   }
   
 
@@ -47,15 +47,15 @@
   
 
   footer img {
-    width: 75px; /* Sets the width of the images in the footer to 75px */
-    height: 65px; /* Sets the height of the images in the footer to 65px */
+    width: 75px; 
+    height: 65px; 
   }
   
 
   footer li {
     display: inline-block; /* Displays the list items in the footer in a line */
     text-align: center; /* Centers the text horizontally */
-    margin: 10px 0; /* Adds a vertical margin of 10px to each side of the list items in the footer */
+    margin: 10px 0; 
   }
   
 
@@ -64,7 +64,7 @@
     flex-direction: column; /* Stacks the items vertically */
     align-items: center; /* Aligns the items horizontally in the center */
     background-color: #a9eca9; /* Sets the background color of the header to a light green */
-    padding: 32px; /* Adds padding of 32px to all sides of the header */
+    padding: 32px;
     border: 3px solid #000; /* Adds a 3px solid black border around the header */
   }
   
@@ -96,12 +96,12 @@
     display: flex; /* Uses flexbox for layout */
     justify-content: space-around; /* Distributes items evenly along the horizontal line */
     list-style-type: none; /* Removes bullets from the list */
-    padding: 10px; /* Adds padding of 10px to all sides of the list */
+    padding: 10px; 
   }
   
   /* Styling for list items within the navigation bar */
   nav ul li {
-    padding: 5px; /* Reduced padding to 5px for all sides of the list items */
+    padding: 5px;
   }
 
   nav ul li a {
@@ -115,13 +115,13 @@
     border-bottom: 1px dotted #fff; /* Adds a white dotted underline to the links in the navigation bar when hovered over */
   }
   
-  /* Styling for h1 elements */
+
   h1 {
     text-align: left; /* Aligns the text to the left */
     font-family: "Bungee Spice"; /* Sets the font of the text to "Bungee Spice" */
   }
   
-  /* Media query for devices with a minimum width of 768px */
+
   @media (min-width: 768px) {
     /* Styling for flex container on devices with a minimum width of 768px */
     .flex-container {
