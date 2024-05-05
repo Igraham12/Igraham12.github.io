@@ -1,0 +1,148 @@
+.flex-item {
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px; /* Adds a top margin of 10px to the flex item */
+    margin-left: 108px; /* Adds a left margin of 98px to the flex item */
+    border: 1px solid #000000; /* Adds a 1px solid black border around the flex item */
+    margin-bottom: 25px; /* Adds a bottom margin of 25px to the flex item */
+  }
+  
+  
+  .flex-container {
+    display: flex; /* Uses flexbox for layout */
+    flex-flow: column wrap; /* Sets the direction of the flex items to column and allows them to wrap to the next line */
+    padding: 0px; 
+    margin: 0px; 
+    list-style: none; /* No list style for the flex container */
+  }
+  
+  
+  .flex-item img {
+    width: 100%; /* Sets image width to 100% of the flex item */
+    height: 100%; /* Sets image height to 100% of the flex item */
+  }
+  
+  
+  
+  footer {
+    background-color: #a9eca9; 
+    padding: 32px; 
+    border: 3px solid #000; /* Adds a 3px solid black border around the footer */
+    text-align: center; /* Centers the text horizontally */
+    justify-content: space-around; /* Distributes items evenly along the horizontal line */
+  
+  }
+  
+  
+  footer a {
+    color: #0000FF; 
+    text-decoration: none; /* Removes the underline from the links in the footer */
+    margin: 0px 10px; 
+    margin-right: 25px;
+  }
+  
+  
+  footer a:hover {
+    border-bottom: 1px solid #0000FF ; /* Adds a blue underline to the links in the footer when hovered over */
+  }
+  
+  
+  footer img {
+    width: 75px; 
+    height: 65px; 
+    margin-right: 15px;
+  }
+  
+  footer li {
+    display: inline-block; /* Displays the list items in the footer in a line */
+    text-align: center; /* Centers the text horizontally */
+    margin: 10px 0px; 
+    
+  }
+  footer li p {
+    display: inline-block; /* Displays the list items in the footer in a line */
+    text-align: center; /* Centers the text horizontally */
+    margin-right: 25px;
+    
+  }
+  footer span {
+    color: #bc25c4;
+  }
+  
+  
+  header {
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: column; /* Stacks the items vertically */
+    align-items: center; /* Aligns the items horizontally in the center */
+    background-color: #a9eca9; /* Sets the background color of the header to a light green */
+    padding: 32px;
+    border: 3px solid #000; /* Adds a 3px solid black border around the header */
+  }
+  
+  
+  #header-content {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Creates maximum space between the items */
+    width: 100%; /* Takes up the full width of its container */
+  
+  }
+  
+  
+  header img {
+    height: 60px; /* Sets the height of the image in the header to 60px */
+    width: 60px; /* Sets the width of the image in the header to 60px */
+  }
+  
+  
+  nav {
+    background-color: #333; /* Sets the background color of the navigation bar to a dark gray */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-around; /* Distributes items evenly along the horizontal line */
+    list-style-type: none; /* Removes bullets from the list */
+    padding: 10px; 
+  }
+  
+  /* Styling for unordered list within the navigation bar */
+  nav ul {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-around; /* Distributes items evenly along the horizontal line */
+    list-style-type: none; /* Removes bullets from the list */
+    padding: 10px; 
+  }
+  
+  /* Styling for list items within the navigation bar */
+  nav ul li {
+    padding: 5px;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Sets the text color of the links in the navigation bar to white */
+    text-decoration: none; /* Removes the underline from the links in the navigation bar */
+    font-size: 0.8rem; /* Reduced font size to 0.8em for the links in the navigation bar */
+  }
+  
+  
+  nav ul li a:hover {
+    border-bottom: 1px dotted #fff; /* Adds a white dotted underline to the links in the navigation bar when hovered over */
+  }
+  
+  
+  h1 {
+    text-align: left; /* Aligns the text to the left */
+    font-family: "Bungee Spice"; /* Sets the font of the text to "Bungee Spice" */
+  }
+  
+  
+  @media (min-width: 768px) {
+    /* Styling for flex container on devices with a minimum width of 768px */
+    .flex-container {
+      justify-content: center; /* Centers the flex items horizontally */
+      align-items: center; /* Centers the flex items vertically */
+    }
+  
+    /* Styling for flex items on devices with a minimum width of 768px */
+    .flex-item{
+    margin-right: 120px; 
+    }
+  }
