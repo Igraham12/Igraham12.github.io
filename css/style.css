@@ -141,8 +141,3 @@
       align-items: center; /* Centers the flex items vertically */
     }
   
-    /* Styling for flex items on devices with a minimum width of 768px */
-    .flex-item{
-    margin-right: 120px; 
-    }
-  }
