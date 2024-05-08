@@ -140,5 +140,8 @@
       justify-content: center; /* Centers the flex items horizontally */
       align-items: center; /* Centers the flex items vertically */
     }
+    .flex-item {
+      margin-right: 120px;
+    }
   }
   
